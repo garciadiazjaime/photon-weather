@@ -1,5 +1,5 @@
 {
-  "name": "photon",
+  "name": "photon-weather",
   "version": "1.0.0",
   "description": "",
   "main": "thermometer.js",

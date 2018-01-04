@@ -18,7 +18,7 @@ var config = convict({
     freq: {
       doc: "Photon frequency",
       format: "int",
-      default: 5000,
+      default: 10000,
       env: "PHOTHON_FREQUENCY"
     },
     elevation: {
