@@ -1,0 +1,24 @@
+{
+  "name": "photon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "thermometer.js",
+  "scripts": {
+    "start": "node ./src/thermometer.js",
+    "docker:build": "docker build -t garciadiazjaime/photon-weather .",
+    "docker:push": "docker push garciadiazjaime/photon-weather",
+    "docker:pull": "docker pull garciadiazjaime/photon-weather"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^4.0.2",
+    "j5-sparkfun-weather-shield": "^0.2.0",
+    "johnny-five": "^0.10.6",
+    "particle-cli": "^1.19.2",
+    "particle-io": "^0.14.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
